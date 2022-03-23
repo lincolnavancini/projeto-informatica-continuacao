@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@200;500&family=Outfit:wght@500&family=Poppins:wght@700&family=Public+Sans:wght@100&family=Righteous&family=Rubik&family=Sarala&display=swap');
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-ifro {
+    width: 150px;
+    padding: 20px 10px;
+}
+
+.cabecalho nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: rgba(0, 0, 0, 90%)
+}
+
+.cabecalho {
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+     
+}
+
+.cabecalho nav p:hover {
+    color: #8dc960;
+    transition: 0.2s;
+    cursor: default;
+}
+
+main {
+    background-image: url(../projeto-informatica/fundo-site.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+      
+}
+
+
+.titulo-materia {
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-materia h1 {
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.titulo-materia h2 {
+    font-weight: 700;
+    font-size: 33px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* --- Primeiro tópico --- */
+
+
+.fundo-branco-s1 {
+    height: 40vh;
+    margin-top: 3cm;
+}
+
+
+
+.textos-gabinete {
+    padding-left: 50px;
+}
+
+.textos-gabinete h1 {
+    color: #000000;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.textos-gabinete p {
+    color: #000000c4;
+    font-size: 37px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 1.2cm;
+}
+
+.div-oqe-gabinete{
+    background-color: white;
+    display: flex;
+}
+
+
+.div-oqe-gabinete img {
+    width: 10.6cm;
+    float: inline-end;
+
+}
+
+
+
+/* --- Segundo tópico --- */
+
+#tamanhos {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 1cm;
+    padding-bottom: 1.5cm;
+}
+
+
+.fundo-branco-s2 {
+    padding-bottom: 200px;
+    margin-top: 8cm;
+}
+
+.fundo-branco-s2 img {
+    padding-right: 70px;
+}
+
+.fundo-branco-s2 .super-tower {
+    max-width: 280px;
+}
+.fundo-branco-s2 .full-tower {
+    max-width: 240px;
+}
+.fundo-branco-s2 .mid-tower {
+    max-width: 210px;
+}
+.fundo-branco-s2 .mini-tower {
+    max-width: 180px;
+}
+
+
+.imagens-gabinetes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding-top: 1cm;
+}
+
+
+.textos-gabinetes {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #000000c2;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 1cm
+}
+
+.div-tipos-de-gabinetes {
+    padding-left: 21px;
+    padding-bottom: 1cm;
+    width: 98vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* --- Terceiro Tópico --- */
+
+
+
+.div-baias-gabinete {
+    display: flex;
+    padding-left: 21px;
+    width: 98vw;
+    background-color: white;
+    margin-top: 3cm;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gabinete-baias {
+    width: 25cm;
+    height: 13cm;
+}
+
+
+.div-baias-gabinete h1 {
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div-baias-gabinete p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1cm;
+    font-size: 24px;
+    color: #000000c2;
+}
+
+
+/* --- Quarto tópico --- */ 
+
+
+.div-tipos-de-tampas {
+    padding-left: 21px;
+    width: 98vw;
+    background-color: white;
+    margin-top: 3cm;
+    align-items: center;
+    padding-bottom: 1cm;
+}
+
+
+.fundo-branco-s4 .vidro-acrilico {
+    max-width: 280px;
+}
+.fundo-branco-s4 .vidro-metal {
+    max-width: 280px;
+}
+.fundo-branco-s4 .vidro-vidro {
+    max-width: 280px;
+}
+
