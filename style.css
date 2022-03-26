@@ -251,3 +251,106 @@ main {
     max-width: 280px;
 }
 
+/* --- Quinto tópico --- */ 
+
+.fundo-branco-s5 {
+    padding-bottom: 200px;
+    margin-top: 8cm;
+}
+
+.div-painel-frontal {
+    padding-left: 21px;
+    width: 98vw;
+    background-color: white;
+    margin-top: 3cm;
+    align-items: center;
+    padding-bottom: 1cm;
+}
+
+.div-painel-frontal h1 {
+    display: flex;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+}
+
+.div-painel-frontal p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1cm;
+    font-size: 24px;
+    color: #000000c2;
+}
+
+.imagem-painel {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*--- Sexto tópico ---*/ 
+
+
+.fundo-branco-s6 {
+    padding-bottom: 200px;
+    margin-top: 2cm;
+}
+
+.div-painel-led {
+    padding-left: 21px;
+    width: 98vw;
+    background-color: white;
+    margin-top: 3cm;
+    align-items: center;
+    padding-bottom: 1cm;
+}
+
+.div-painel-led h1, p {
+    display: flex;
+    justify-content: center;
+}
+
+.div-painel-led h1 {
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div-painel-led p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1cm;
+    font-size: 24px;
+    color: #000000c2;
+}
+
+.led-gabinete {
+    width: 17cm;
+}
+
+
+/*--- Sexto tópico ---*/
+
+
+.copyright {
+    padding-left: 21px;
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    width: 98vw;
+    background-color: #b4fc7d;
+}   
+
+.logo-ifro-footer {
+    width: 4cm;
+}
+
+.imagem-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5cm;
+}
